@@ -12,25 +12,32 @@
     <style>
         /* ========== ROOT VARIABLES ========== */
         :root {
-            --bg: #fafaf8;
-            --bg-card: #ffffff;
-            --primary: #1a1a2e;
-            --primary-light: #2d2d44;
-            --accent: #e07a5f;
-            --accent-light: #f4d0c4;
-            --accent-dark: #c05a3e;
-            --muted: #6b6b7a;
-            --muted-light: #a0a0b0;
-            --surface: #f0efed;
-            --success: #2a9d8f;
-            --warning: #e9c46a;
-            --radius: 16px;
-            --radius-sm: 10px;
-            --shadow: 0 4px 24px rgba(26, 26, 46, 0.06);
-            --shadow-hover: 0 12px 48px rgba(26, 26, 46, 0.10);
+    --bg: #f8fafc;
+    --bg-card: #ffffff;
+
+    --primary: #0f172a;
+    --primary-light: #1e293b;
+
+    --accent: #2563eb;
+    --accent-light: #dbeafe;
+    --accent-dark: #1d4ed8;
+
+    --muted: #64748b;
+    --muted-light: #94a3b8;
+
+    --surface: #f1f5f9;
+
+    --success: #10b981;
+    --warning: #f59e0b;
+
+    --radius: 16px;
+    --radius-sm: 10px;
+    --shadow: 0 4px 24px rgba(15, 23, 42, 0.08);
+    --shadow-hover: 0 12px 48px rgba(15, 23, 42, 0.15);
+
             --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
             --container: 1240px;
-        }
+    }
 
         /* ========== RESET & BASE ========== */
         * {
@@ -112,11 +119,11 @@
             border-color: var(--accent);
         }
         .btn-primary:hover {
-            background: var(--accent-dark);
-            border-color: var(--accent-dark);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 24px rgba(224, 122, 95, 0.30);
-        }
+    background: var(--accent-dark);
+    border-color: var(--accent-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.30);
+}
         .btn-secondary {
             background: var(--primary);
             color: #fff;
@@ -268,11 +275,11 @@
             border: 2px solid transparent;
             min-width: 220px;
         }
-        .search-wrap:focus-within {
-            border-color: var(--accent);
-            background: #fff;
-            box-shadow: 0 0 0 4px rgba(224, 122, 95, 0.10);
-        }
+       .search-wrap:focus-within {
+    border-color: var(--accent);
+    background: #fff;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+}
         .search-wrap input {
             border: 0;
             background: transparent;
@@ -365,7 +372,7 @@
         }
         .hero .badge {
             display: inline-block;
-            background: rgba(224, 122, 95, 0.20);
+            background: rgba(37, 99, 235, 0.15);
             color: var(--accent);
             padding: 4px 16px;
             border-radius: 999px;
